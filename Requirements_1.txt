@@ -1,0 +1,12 @@
+urllib
+urllib
+xmltodict
+fiona
+pandas 
+numpy 
+matplotlib 
+cv2
+shutil
+itertools
+scipy
+pvlib
