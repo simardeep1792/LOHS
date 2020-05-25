@@ -40,7 +40,7 @@ Route = pd.read_excel('Your_File_Name.xlsx')
 'downloadPanaromaForGoogleImages()'
 
 Result:
-panoID      I3_kUy4QR3neGplESvPOAA        
+panoID      q05QYLJdN8I6MSNa8l9dow        
 panoDate    2019-05,
 longitude  -75.706272,
 latitude    45.415549
@@ -57,8 +57,8 @@ downloadPanaromaImages()
 
 ```
 Result:
-panoID-            3JM3shM8DmY6_Srq3WnirQ
-greenViewValue-    27.0536
+panoID           3JM3shM8DmY6_Srq3WnirQ
+greenViewValue   35.43
 ```
 ![q05QYLJdN8I6MSNa8l9dow](https://user-images.githubusercontent.com/42692738/82768519-87de4900-9dfd-11ea-80e1-76449844a713.jpg)
 
@@ -86,8 +86,10 @@ Fisheye Image
 
 
 ```
-
-
+Results :
+Skyview Factor:- 0.2704633911077838,
+Green View Factor:- 0.5020559199760064,
+Building View Factor:- 0.0
 ```
 
 
