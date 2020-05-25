@@ -51,8 +51,7 @@ latitude    45.415549
 ```
 downloadPanaromaImages()
 ```
-![3sTpHuc1ZXXBTxQmf921Qw](https://user-images.githubusercontent.com/42692738/82768333-6761bf00-9dfc-11ea-903e-a10add6ad253.jpg)
-
+![q05QYLJdN8I6MSNa8l9dow](https://user-images.githubusercontent.com/42692738/82768503-74cb7900-9dfd-11ea-99ff-b583670246dd.jpg)
 
 4) 'greenViewCalculator' --> Using Otsu's method and the pymeanshift package, the Green View Index for each cylndrical panaroma image is calculated for each sampling point and then the GVI values are averaged to provide a single GVI value for every point along the street network. A text file is generated at the end specifying the green view points for the particular panaromas.
 
@@ -61,13 +60,11 @@ Result:
 panoID-            3JM3shM8DmY6_Srq3WnirQ
 greenViewValue-    27.0536
 ```
-
-![3sTpHuc1ZXXBTxQmf921Qw](https://user-images.githubusercontent.com/42692738/82768447-10a8b500-9dfd-11ea-819e-471638871211.jpg)
+![q05QYLJdN8I6MSNa8l9dow](https://user-images.githubusercontent.com/42692738/82768519-87de4900-9dfd-11ea-80e1-76449844a713.jpg)
 
 5) Solar Azimuth Calculation and Position --> This method generates the hemispherical fisheye images of the clyindrical panaromas along with solar position being calculated for every latitude and longitude for the specified time of the year.
 
-
-![3sTpHuc1ZXXBTxQmf921Qw](https://user-images.githubusercontent.com/42692738/82768428-f2db5000-9dfc-11ea-962d-a532df696527.jpg)
+![q05QYLJdN8I6MSNa8l9dow](https://user-images.githubusercontent.com/42692738/82768522-9593ce80-9dfd-11ea-981c-0d9add291b87.jpg)
 
 6) Launch Python 3.5 environment in the terminal change directory to PSP_Net and run:
 
@@ -77,6 +74,15 @@ python PSP_Net/Segnet_Calculate_Results.py Project/GSV_Stiched_Images
 
 This method takes google street view images from the folder segments them into sky, tree and buildings. The Segmented images are used to generate fisheye images by projecting GSV panoramas from the cylindrical projection to azimuthal projection. Furtermore on the basis of the segmentation results, Sky View, Tree View and Building View Factor are being calculated.
 
+```
+Segmented Image
+```
+![q05QYLJdN8I6MSNa8l9dow](https://user-images.githubusercontent.com/42692738/82768534-ac3a2580-9dfd-11ea-9265-3f7aec5a0353.jpg)
+
+```
+Fisheye Image
+```
+![q05QYLJdN8I6MSNa8l9dow](https://user-images.githubusercontent.com/42692738/82768564-cb38b780-9dfd-11ea-86ee-408947838aed.jpg)
 
 
 ```
