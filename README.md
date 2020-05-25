@@ -50,7 +50,6 @@ latitude    45.415549
 
 ```
 downloadPanaromaImages()
-
 ```
 ![3sTpHuc1ZXXBTxQmf921Qw](https://user-images.githubusercontent.com/42692738/82768333-6761bf00-9dfc-11ea-903e-a10add6ad253.jpg)
 
@@ -65,9 +64,14 @@ panoID-            3JM3shM8DmY6_Srq3WnirQ
 greenViewValue-    27.0536
 ```
 
+![3sTpHuc1ZXXBTxQmf921Qw](https://user-images.githubusercontent.com/42692738/82768333-6761bf00-9dfc-11ea-903e-a10add6ad253.jpg)
+
+
 
 5) Solar Azimuth Calculation and Position --> This method generates the hemispherical fisheye images of the clyindrical panaromas along with solar position being calculated for every latitude and longitude for the specified time of the year.
 
+
+![3sTpHuc1ZXXBTxQmf921Qw](https://user-images.githubusercontent.com/42692738/82768428-f2db5000-9dfc-11ea-962d-a532df696527.jpg)
 
 6) Launch Python 3.5 environment in the terminal change directory to PSP_Net and run:
 
