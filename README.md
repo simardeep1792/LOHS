@@ -22,6 +22,8 @@ Creating an Environment for PSPNet-Tensorflow
 
 4) Install the mandatory libraries using the link at pip install -r Requirements_2.txt --upgrade
 
+6) Download pspnet50_ade20k.h5(https://www.dropbox.com/s/0uxn14y26jcui4v/pspnet50_ade20k.h5?dl=1), pspnet50_ade20k.json(https://www.dropbox.com/s/v41lvku2lx7lh6m/pspnet50_ade20k.json?dl=1), these weights are used in this project. (for more information please refer to the link(https://github.com/Vladkryvoruchko/PSPNet-Keras-tensorflow).)
+
 
 
 ## Running the tests
