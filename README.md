@@ -52,7 +52,9 @@ latitude    45.415549
 downloadPanaromaImages()
 
 Result:
-![Image1](GSV_Stiched_Images/3sTpHuc1ZXXBTxQmf921Qw.jpg)
+
+![3sTpHuc1ZXXBTxQmf921Qw](https://user-images.githubusercontent.com/42692738/82768333-6761bf00-9dfc-11ea-903e-a10add6ad253.jpg)
+
 ```
 
 4) 'greenViewCalculator' --> Using Otsu's method and the pymeanshift package, the Green View Index for each cylndrical panaroma image is calculated for each sampling point and then the GVI values are averaged to provide a single GVI value for every point along the street network. A text file is generated at the end specifying the green view points for the particular panaromas.
