@@ -57,16 +57,12 @@ downloadPanaromaImages()
 4) 'greenViewCalculator' --> Using Otsu's method and the pymeanshift package, the Green View Index for each cylndrical panaroma image is calculated for each sampling point and then the GVI values are averaged to provide a single GVI value for every point along the street network. A text file is generated at the end specifying the green view points for the particular panaromas.
 
 ```
-downloadPanaromaImages()
-
 Result:
 panoID-            3JM3shM8DmY6_Srq3WnirQ
 greenViewValue-    27.0536
 ```
 
-![3sTpHuc1ZXXBTxQmf921Qw](https://user-images.githubusercontent.com/42692738/82768333-6761bf00-9dfc-11ea-903e-a10add6ad253.jpg)
-
-
+![3sTpHuc1ZXXBTxQmf921Qw](https://user-images.githubusercontent.com/42692738/82768447-10a8b500-9dfd-11ea-819e-471638871211.jpg)
 
 5) Solar Azimuth Calculation and Position --> This method generates the hemispherical fisheye images of the clyindrical panaromas along with solar position being calculated for every latitude and longitude for the specified time of the year.
 
